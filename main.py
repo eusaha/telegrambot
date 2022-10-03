@@ -2,10 +2,10 @@ import os
 import telebot
 
 
-bot = telebot.TeleBot("5661907712:AAGbmC647RqtdIpe8UgkqMZS8ohTnXQLBqU")
+bot = telebot.TeleBot(" 5661907712:AAGbmC647RqtdIpe8UgkqMZS8ohTnXQLBqU ")
 
 
-@bot.message_handler(commands=["start"])
+@bot.message_handler(commands=["a"])
 def send_welcome(message):
   bot.reply_to(message, "Hello! I'm Uvindu Bro Chat Bot")
 
