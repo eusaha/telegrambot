@@ -10,13 +10,6 @@ def send_welcome(message):
   bot.reply_to(message, "Hello! I'm Chat Bot")
   
   
-@bot.message_handler(commands=["hello"])
-def send_welcome(message):
-  bot.reply_to(message, "ඇයි")
-  
-  
-@bot.message_handler(commands=["ai"])
-def send_welcome(message):
-  bot.reply_to(message, " අයි පුකද බලන්නෙ ")
+
 
 bot.polling()
