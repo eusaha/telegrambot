@@ -2,7 +2,7 @@ import os
 import telebot
 
 
-bot = telebot.TeleBot(' 5661907712:AAGbmC647RqtdIpe8UgkqMZS8ohTnXQLBqU ')
+bot = telebot.TeleBot('5623165505:AAEgJEFk0BQK82qwvqDXfxcs8ast57q5NCk')
 
 
 @bot.message_handler(commands=["a"])
